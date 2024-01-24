@@ -12,7 +12,7 @@ export const Signup = () => {
     className="form-label">Name</label>
     <input type="text" 
     className="form-control" 
-    id="exampleInputName"  />
+    id="exampleInputName" />
   </div>
   <div className="mb-3">
     <label htmlFor="exampleInputEmail" 

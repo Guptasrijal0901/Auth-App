@@ -2,7 +2,7 @@ import React from 'react'
 import "./login.css"
 export const Login = () => {
   return (
-    <div>
+    <div className='main'>
     <form>
     <div className='header'> Login </div>
   <div className="mb-3">
