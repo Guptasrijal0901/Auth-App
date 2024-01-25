@@ -4,15 +4,15 @@
     font-weight: bolder;
     margin-top: 20px;
 }
-.main{
+/* .main{
     overflow: hidden;
     width: 400px;
     margin: auto;
     margin-bottom: 40px;
-}
-.button-container{
+} */
+.loginspan{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    text-align: right;
     cursor: pointer;
+    color: rgb(4, 32, 84);
 }

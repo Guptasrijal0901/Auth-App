@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 .App-header {
@@ -8,4 +8,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+} */
+body{
+  background: linear-gradient(to right, rgb(250, 146, 255), yellow);
+  background-size: cover ;
 }

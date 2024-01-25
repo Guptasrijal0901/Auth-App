@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
 import "./home.css";
+import { useNavigate } from 'react-router-dom';
 export const Home = () => {
+  const navigate = useNavigate(); 
   return (
     <div>  
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -18,7 +20,16 @@ export const Home = () => {
     </div>
   </div>
 </nav>
-    </div>
+<div className='heading'>
+<h1 > This is an Authentication App. <br></br></h1>
+</div>
+<div className='btn'>
+<button type="button" class="btn btn-primary"
+onClick={()=> navigate("/Signup")}>
+Let's Start 
+</button>
+</div>
+</div>
   )
 }
 export default Home;
